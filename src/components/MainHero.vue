@@ -228,4 +228,33 @@ export default {
     transform: scale(1.05) rotate(1deg);
   }
 }
+
+@media only screen and (max-width: 1540px) {
+  .hero {
+    padding-top: 120px;
+  }
+  .hero_info {
+    padding: 0;
+  }
+  .hero_img {
+    height: 750px;
+    top: -120px;
+  }
+  .appearing_item:nth-child(1) {
+    top: 0;
+  }
+  .appearing_item:nth-child(2) {
+    top: 150px;
+    right: -85px;
+  }
+  .appearing_item:nth-child(3) {
+    top: 250px;
+  }
+  .apearing_item-title {
+    font-size: 20px;
+  }
+  .apearing_item-text {
+    font-size: 14px;
+  }
+}
 </style>
