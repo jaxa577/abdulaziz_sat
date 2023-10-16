@@ -95,12 +95,10 @@ export default {
   </section>
 </template>
 
-<style>
+<style scoped>
 .hero {
   padding-top: 200px;
   background-color: #fbecd7;
-  /* border-bottom-left-radius: 100px;
-  border-bottom-right-radius: 100px; */
   height: calc(100vh + 20px);
 }
 .container {
@@ -229,9 +227,10 @@ export default {
   }
 }
 
-@media only screen and (max-width: 1540px) {
+/* @media only screen and (max-width: 1900px) {
   .hero {
     padding-top: 120px;
+    background-color: red;
   }
   .hero_info {
     padding: 0;
@@ -256,5 +255,5 @@ export default {
   .apearing_item-text {
     font-size: 14px;
   }
-}
+} */
 </style>

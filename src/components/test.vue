@@ -106,7 +106,7 @@ export default {
   </KinesisContainer>
 </template>
 
-<style>
+<style scoped>
 .hero {
   padding-top: 200px;
   background-color: #fbecd7;
@@ -237,6 +237,36 @@ export default {
   }
   100% {
     transform: scale(1.05) rotate(1deg);
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .hero {
+    padding-top: 120px;
+    /* background-color: red; */
+  }
+  .hero_info {
+    padding: 0;
+  }
+  .hero_img {
+    height: 750px;
+    top: -100px;
+  }
+  .appearing_item:nth-child(1) {
+    top: 100px;
+  }
+  .appearing_item:nth-child(2) {
+    top: 250px;
+    right: -85px;
+  }
+  .appearing_item:nth-child(3) {
+    top: 350px;
+  }
+  .apearing_item-title {
+    font-size: 20px;
+  }
+  .apearing_item-text {
+    font-size: 14px;
   }
 }
 </style>
